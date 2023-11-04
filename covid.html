@@ -1,0 +1,330 @@
+
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <script src='https://code.jquery.com/jquery-3.2.1.slim.min.js' integrity='sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN' crossorigin='anonymous'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js' integrity='sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q' crossorigin='anonymous'></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js' integrity='sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl' crossorigin='anonymous'></script>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css' integrity='sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm' crossorigin='anonymous'>
+    <style>
+        body {margin:0px; padding:0px;}
+        
+        /* The Modal (background) */
+        .modal {
+          display: none; /* Hidden by default */
+          position: fixed; /* Stay in place */
+          z-index: 1; /* Sit on top */
+          padding-top: 100px; /* Location of the box */
+          left: 0;
+          top: 0;
+          width: 100%; /* Full width */
+          height: 100%; /* Full height */
+          overflow: auto; /* Enable scroll if needed */
+          background-color: rgb(0,0,0); /* Fallback color */
+          background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+        }
+        
+        /* Modal Content */
+        .modal-content {
+          background-color: #fefefe;
+          margin: auto;
+          padding: 20px;
+          border: 1px solid #888;
+          height: 88%;
+          align-items: center;
+          text-align: center;
+        }
+        .img-float{
+            display: flex;
+            flex-direction: row;
+        }
+       
+        /* The Close Button */
+        .cont{
+            margin:0px;padding:0px;
+            align-items: center;
+            width:100%;
+        }
+        .radio-inline{font-size: 20px;margin:10px;font-weight: bold;}
+        .form-control{border: 0px;}
+        .questions{box-shadow: 8px 8px 7px #aaaaaa;
+        border: 1px solid rgb(170, 170, 170);
+        margin-top: 40px;
+        }
+        .ss{
+            border: 1px solid rgb(175, 175, 175);
+            margin: 4px;
+            border-radius: 5px;
+            box-shadow: 8px 8px 7px #aaaaaa;
+        }
+        .ss:hover{
+            box-shadow: 8px 8px 7px #aaaaaa;
+            margin-bottom: 10px;
+            margin-top: -5px;
+           
+        }
+        p{font-weight: bold;}
+       
+        </style>
+<link rel="me" href="https://www.blogger.com/profile/12091289211667594654" />
+<meta name='google-adsense-platform-account' content='ca-host-pub-1556223355139109'/>
+<meta name='google-adsense-platform-domain' content='blogspot.com'/>
+</head>
+
+<body>
+<div class='container-fluid cont p-1'>
+    <div class='container-fluid header bg-primary text-white text-center col-12 m-auto'>
+    <h1 class='pt-2'>COVID-19 Online Checkup.</h1>
+    <div class='p-0' style='font-size: 22px;color: rgb(164, 211, 137);font-weight: bold;'>Test now to check weather you are infected or not, by giving answer of few questions.
+      By- Onkar Patil
+      </div>
+    </div>
+    <center>
+        
+        <div style='margin-top:40px;'><h2>COVID-19 COMMON SYMPTOMS.</h2></div>
+    <div class='mb-2 container-fluid img-float col-xl-8 col-lg-7 mt-3 col-md-10 col-sm-12 col-12 symptom-cont'>
+        <div class='img-fluid img1 col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4 ss'><img src='https://1.bp.blogspot.com/-ZRHzgcZk_Pk/XxloqtlpsNI/AAAAAAAABis/7KgSlf4Ofucome_SfHWFhxZDgXAZjkiMQCNcBGAsYHQ/s1600/img1.gif' style='width:60px; height:60px;'><br>Fever</div>
+
+        <div class='img-fluid img2 col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4 ss'><img src='https://1.bp.blogspot.com/-Tt1WgenowMA/Xxloqnad8FI/AAAAAAAABiw/UnC3iXLpmPAeRoXsz-abuLaf0vYjlFvjACNcBGAsYHQ/s1600/img2.gif' style='width:60px; height:60px;'><br>Dry cough</div>
+
+        <div class='img-fluid img3 col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4 ss'><img src='https://1.bp.blogspot.com/-F2Z5nuc97Hk/Xxloqpd83II/AAAAAAAABio/-a8bxNtHGz8Uh4dSfA60cs6X7AyWkx2yQCNcBGAsYHQ/s1600/img3.gif' style='width:60px; height:60px;'><br>Tiredness</div><br>
+    </div>
+
+    <p>COVID-19 affects different people in different ways. Most infected people will develop mild to moderate illness and recover 
+        without hospitalization.</p>
+    </center>
+
+
+
+    <div class='container-fluid form-control'>
+        <!--Question 1-->
+        <div class='container-fluid questions rounded'>
+            <form>
+            <h3>1. Have you all symptoms in  fever, dry-cough, chills or headache ? ( ताप, कोरडा-खोकला, थंडी पडणे किंवा डोकेदुखी अशी सर्व लक्षणे आहेत का? )</h3>
+            <label class='radio-inline'><input type='radio' id='r1' name='optradio'> Yeas</label>
+            <label class='radio-inline'><input type='radio' name='optradio'> No</label>
+            </form>
+        </div>
+        <!--Question 2-->
+        <div class='container-fluid questions rounded'>
+            <form>
+            <h3>2. Are you feeling like loss of taste or smell ? ( आपल्याला चव किंवा गंध कमी झाल्यासारखे वाटत आहे? )</h3>
+            <label class='radio-inline'><input type='radio' id='r2' name='optradio'> Yeas</label>
+            <label class='radio-inline'><input type='radio' name='optradio'> No</label>
+            </form>
+        </div>
+        <!--Question 3-->
+        <div class='container-fluid questions rounded'>
+            <form>
+            <h3>3. You Have a rash on skin or discolouration of fingers or toes ? ( आपल्या त्वचेवर पुरळ उठली आहे किंवा बोटे किंवा बोटांनी विरघळली आहे? )</h3>
+            <label class='radio-inline'><input type='radio' id='r3' name='optradio'> Yeas</label>
+            <label class='radio-inline'><input type='radio' name='optradio'> No</label>
+            </form>
+        </div>
+        <!--Question 4-->
+        <div class='container-fluid questions rounded'>
+            <form>
+            <h3>4. Have you difficulty breathing, chest pain or pressure ? ( आपल्याला श्वास घेण्यात त्रास होत आहे, छातीत दुखणे किंवा दबाव? )</h3>
+            <label class='radio-inline'><input type='radio' id='r4' name='optradio'> Yeas</label>
+            <label class='radio-inline'><input type='radio' name='optradio'> No</label>
+            </form>
+        </div>
+        <!--Question 5-->
+        <div class='container-fluid questions rounded'>
+            <form>
+            <h3>5. I feel like loss of speech or movement. ( मला बोलणे किंवा हालचाल गमावल्यासारखे वाटते. )</h3>
+            <label class='radio-inline'><input type='radio' id='r5' name='optradio'> Yeas</label>
+            <label class='radio-inline'><input type='radio' name='optradio'> No</label>
+            </form>
+        </div>
+        
+
+        <center>
+        <button onclick='GFG_Fun()' class='btn btn-lg btn-primary mt-4 col-xl-5 font-weight-bold col-md-4 col-sm-12 col-12' style='height:59px;'>
+            Submit
+        </button>
+        <a href="whatsapp://send?text=Test COVID-19 Disease Online.( ही Web-Site आपल्याला COVID-19 चि लक्षणे आहे की नाही हे अचुक घर बसल्या Online सांगते. ) 
+https://covid-19-online-testing.blogspot.com/" class='text-white'><button class='font-weight-bold btn btn-lg btn-success text-center mt-4 col-xl-5 col-md-4 col-sm-12 col-12'>Share To Friends
+            <i class='fa fa-whatsapp' style='font-size:40px;color:rgb(0, 0, 0)'></i>
+        </button></a>
+        </center>
+    </div>
+
+    
+</div>
+
+
+
+    
+    
+     
+
+<!-- Trigger/Open The Modal -->
+
+<!-- The Modal -->
+<div id='myModal' class='modal text-center'>
+
+  <!-- Modal content -->
+  <dqiv class='modal-content col-xl-5 col-lg-6 col-md-7 col-sm-10 col-12' style='overflow: scroll;'>
+      <h2 id='hid'>Check In Progress..!</h2>
+    <img src='https://1.bp.blogspot.com/-g4Ar2xhAclo/Xxlvi_NagOI/AAAAAAAABjU/54UnOAX9t7sk-he04a8IA7egDnBbNW9IACNcBGAsYHQ/s320/aaa.gif' id='i' class='img-fluid' style='width:80%; height:80%;'>
+    <h5 id='delay' style='color:orangered;font-weight: bold;margin:auto;'></h5>
+    <div class='toe-div m-4 text-center img-fluid' id='toe' style='height:55%; width:55%;'>
+    <img src='https://1.bp.blogspot.com/-UdyOusgipDg/XxlorYgV7rI/AAAAAAAABi0/hr3BnWbZ-04qw3v6ooTOqXOBNdbtrZyqACNcBGAsYHQ/s320/toes.jpg' class='img-fluid p-1' style='height:100%; width:100%;border: 2px solid gray; border-radius: 5px;'>
+    <h5>Discolouration of fingers.</h5>
+    </div>
+    <h4 id='thanks'>Thanks for your support.</h4>
+    
+    <button onclick='clicked()' class='mt-3 font-weight-bold btn btn-lg btn-info text-center' id='last'>Close</button>
+  </div>
+
+</div>
+
+
+
+      <script> 
+ $('#toe').hide();
+$('#last').hide();
+        $('#delay').hide(); 
+        function GFG_Fun() { 
+       setTimeout(function() { 
+                $('#i').hide(); 
+            }, 4300); 
+            
+           
+
+            setTimeout(function() { 
+                $('#hid').hide(); 
+            }, 4300); 
+
+
+
+
+
+
+
+
+    //All if conitions Comes Here
+            setTimeout(function() { 
+                $('#delay').show(); 
+    if(r1.checked==true || r2.checked==true || r3.checked==true || r4.checked++==true || r5.checked==true)
+    {
+                if (r1.checked == true){
+                $('#delay').text('You can have a gentle start of Kovid-19. You should go to your doctor only if you have all these symptoms for more than 2-3 days.'); 
+                } 
+
+                if (r2.checked == true){
+                $('#delay').text('These are symptoms of cold, if these symptoms are not cured even by taking medicines since long time, then contact your doctor immediately, and try to stay away from others.'); 
+            
+                }
+                
+                if (r3.checked == true){
+                $('#delay').text('A red rash on the toes or fingers may be a sign of so-called COVID toes, which researchers believe is happening most commonly in young people recovering from COVID-19.'); 
+                $('#toe').show();
+                }
+
+                if (r4.checked == true){
+                $('#delay').text('Call a doctor or hospital right away if you have one or more of these COVID-19 symptoms:- Trouble breathing, Constant pain or pressure in your chest.'); 
+               
+                }
+
+                if (r5.checked == true){
+                $('#delay').text('The WHO has listed loss of speech or movements as one of the most serious symptoms of COVID-19. If you experience any of these symptoms, it is strongly advisable to seek medical attention immediately. Some of the other warning symptoms include: 1. Difficulty breathing.  2. Shortness of breath.  3. Chest pain or pressure.  4. Bluish lips, etc.'); 
+                }
+
+                if(r1.checked==true && r2.checked==true){
+                    $('#delay').text('According to your information, it seems that you are in initial phase of KOVID-19. You have most common and less common systems, Which can be easily cured by early treatment.');
+                    $('toe').hide();
+                }
+
+                if(r1.checked==true && r2.checked==true && r3.checked==true){
+                    $('#delay').text('If you had a problem like fever, dry-cough, chills, headache and loss of taste or smell, and after that, a rash on skin or discolouration of fingers or toes problem has started, then maybe your Kovid-19 is getting fixed. Because according to WHO such symptoms has seen only in the young during getting recovered from COVID-19.');
+                    $('toe').hide();
+                }
+
+                if(r1.checked==true && r2.checked==true && r3.checked==true && r4.checked==true){
+                    $('#delay').text('Difficulty in breathing, chest pain or pressure along with feaver, headache or dry cough is the serious symptom of COVID-19.');
+                    $('toe').hide();
+                }
+
+                if(r1.checked==true && r2.checked==true && r3.checked==true && r4.checked==true && r5.checked==true){
+                    $('#delay').text('Difficulty in breathing, chest pain or pressure along with feaver, headache or dry cough along with loss of speech or movement. is the sign of COVID-19.');
+                    $('toe').hide();
+                }
+
+                if(r1.checked==true && r3.checked==true){
+                    $('#delay').text('Symptoms like fever, dry-cough, chills or headache are the indication that COVID-19 is in initial phase, along with that rash on skin or discolouration of fingers or toes describes that your body is recovering from COVID-19 virus attack.');
+                    $('toe').hide();
+                }
+
+                if(r1.checked==true && r4.checked==true){
+                    $('#delay').text('Whatever symptoms you have in your body, all of them point towards COVID-19. So you quickly get your Kovid test done without wasting of time. and stay away from others.');
+                    $('toe').hide();
+                }
+
+                if(r1.checked==true && r5.checked==true){
+                    $('#delay').text('From your symptoms, it seems that you have had an infection of COVID-19. Right now you are in desperate need of treatment and rest. So soon you get in touch with the hospital near you.');
+                    $('toe').hide();
+                }
+                
+                if(r2.checked==true && r4.checked==true){
+                    $('#delay').text('Difficulty breathing, chest pain or pressure are all symptoms of heart attack, but if you also have symptoms like loss of taste or smell then you should get COVID-19 tested.');
+                    $('toe').hide();
+                }
+
+                if(r2.checked==true && r5.checked==true){
+                    $('#delay').text('WHO listed the loss of speech or movement is serious symptom of COVID-19 along with loss of taste or smell.');
+                    $('toe').hide();
+                }
+
+                if(r2.checked==true && r4.checked==true && r5.checked==true){
+                    $('#delay').text('WHO says these are all symptoms of COVID-19 disease. So, you should have to contact with your family doctor or has to visit the goverment hospital for COVID-19 test.');
+                    
+                }
+
+                if(r3.checked==true && r4.checked==true){
+                    $('#delay').text('Difficulty of breathing, chaist pain or preassure are seriou symptms of COVID-19. But also some symptoms like skin rash or decoloration of fingers are sign that your body trying to recover from it. So, immedieatly you have to contact to your doctor and admit yourself in hospital for greater results.');
+                }    
+
+                if(r3.checked==true && r4.checked==true && r5.checked==true){
+                    $('#delay').text('Difficulty in breathing, and loss of speech movement are the serious symptoms of COVID-19. But the rash on skin or discolouration of fingers or toes are probably found in youngsters when their body is recovering well from it. Sometimes COVID-19 is not even known, our body automatically fixes it from inside.');
+                    
+                }            
+
+    }else{$('#delay').text('Congrats you dont have any symptoms of COVID-19, so dont worry you are safe. But still stay home stay safe :)');}
+               
+
+            }, 4500); 
+    //All if conitions Comes Here
+
+
+
+
+
+
+
+
+            setTimeout(function() { 
+                $('#last').show(); 
+            }, 4500); 
+            setTimeout(function() { 
+                $('#thanks').hide(); 
+            }, 4300); 
+        
+            setTimeout(function() { 
+                $('#myModal').show(); 
+            }, 0000); 
+
+           
+        } 
+
+function clicked(){
+    location.reload(true);
+}
+
+    </script> 
+</body>
+</html>
